@@ -17,10 +17,12 @@ function main(args) {
         salt: salt
     });
 
+    console.log(key);
+
     let name = args.name || 'stranger'
     let greeting = 'Hello ' + name + '!'
     console.log(greeting)
-    return {"body": key}
+    return {"body": greeting}
 
   });
     
