@@ -1,5 +1,0 @@
-packages:
-  - name: argon2
-    actions:
-      - name: argon2
-        runtime: 'nodejs:default'
