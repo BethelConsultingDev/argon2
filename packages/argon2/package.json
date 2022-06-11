@@ -1,0 +1,12 @@
+{
+  "name": "argon2",
+  "version": "1.0.0",
+  "description": "argon2",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "argon2": "^0.28.5"
+  }
+}

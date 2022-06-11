@@ -1,0 +1,3 @@
+packages:
+  - name: argon2
+    runtime: 'nodejs:default'
