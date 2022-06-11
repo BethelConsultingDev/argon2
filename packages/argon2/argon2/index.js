@@ -1,7 +1,7 @@
-const argon2 = require("argon2");
-const crypto = require("crypto");
-
 function main(args) {
+
+  const argon2 = require("argon2");
+  const crypto = require("crypto");
 
   crypto.randomFill(new Uint8Array(16), async (err, salt) => {
     if (err) throw err;
